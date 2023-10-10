@@ -3,7 +3,7 @@ spring:
         driver-class-name: com.mysql.cj.jdbc.Driver
         username: admin
         password: 123456789
-        url: jdbc:mysql://ddangkong0.c6mujyxzjz4b.ap-northeast-2.rds.amazonaws.com:3306/ddangkong0?useSSL=false
+        url: jdbc:mysql://ddangkong0.c6mujyxzjz4b.ap-northeast-2.rds.amazonaws.com:3306/ddangkong?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
 
     jpa:
         hibernate:
