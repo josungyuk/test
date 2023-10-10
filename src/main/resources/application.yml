@@ -1,13 +1,13 @@
 spring:
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        username: root
-        password: 1234
-        url: jdbc:mysql://localhost:3306/ddangkong
+        username: admin
+        password: 123456789
+        url: jdbc:mysql://ddangkong0.c6mujyxzjz4b.ap-northeast-2.rds.amazonaws.com:3306/ddangkong0?useSSL=false
 
     jpa:
         hibernate:
-            ddl-auto: create
+            ddl-auto: update
         properties:
             hibernate:
                 format_sql: true
